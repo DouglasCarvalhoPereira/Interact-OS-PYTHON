@@ -1,0 +1,19 @@
+Kernel é o núcleo principal do sistema operacional e fala conversa diretamente com o hardware e 
+gerencia os recursos do sistema (Disco, Memória, Rede)
+
+Usuários não interagem diretamente com o Kernel e sim o ESPAÇO DO USUÁRIO.
+
+Linux é open source e por isso pode ser mais flxível para programadores. Algumas distribuições comuns
+são:
+
+1-UBUNTU
+2-DEBIAN
+3-REDHAT
+
+* python <nome do arquivo>.py Executa no terminal
+
+python Aula1.py executa o arquivo.
+
+*type <nome do arquivo>.py Exibe o conteúdo do arquivo no terminal
+
+type Aula1.py exibe o conteúdo
