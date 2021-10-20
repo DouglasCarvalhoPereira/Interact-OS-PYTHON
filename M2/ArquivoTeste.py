@@ -1,14 +1,10 @@
 import os
 
 def create_python_script(filename):
-    comments = "#Start"
+    comments = "!#Start of a new Python program"
     with open(filename, 'w') as file:
-        file = file.write(comments)
-        filesize = os.path.getsize(file)
-
+        filesize = file.write(comments)
+        
         return (filesize)
 
 print(create_python_script("program.py"))
-
-
-#corrigir
