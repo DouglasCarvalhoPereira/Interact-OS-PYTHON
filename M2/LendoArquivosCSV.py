@@ -14,7 +14,7 @@ for lead in read_csv:
     with open('newContatos', 'w') as newLeads:
         newLeads.writer(lead)
 
-    #CONTINUAÇÃO
-
-
     print('Nome: {} | Email: {} | Whatsapp: {}'.format(nome, email, new_whats))
+
+
+    #CONTINUAÇÃO, PRECISO MUDAR AS PERMISSÕES DE ACESSO DO ARQUIVO
