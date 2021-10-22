@@ -1,0 +1,5 @@
+Nesse módulo trabalharemos com REGEX ou REGEXP, usando "import re"
+
+Também podemos utilizar as ferramentas na linha de comndo e aplicar regexs, como GREP, SED ou AWK
+
+Usamos regex em ferramentas de processamento de texto como IDE, editores ou documentos.
