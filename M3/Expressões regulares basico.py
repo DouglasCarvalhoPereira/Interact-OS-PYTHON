@@ -1,4 +1,5 @@
 import re
+#A FUNÇÃO "SEARCH" SÓ BUSCA A PRIMEIRA OPÇÃO DA FRASE
 
 #ESSE É O MODO TRADICIONAL DE EXTRAIR USANDO SOMENTE PYTHON
 log = "July 31 07:51:48 mycomputer bad_process[12345]: ERROR Performaing package upgrade"
