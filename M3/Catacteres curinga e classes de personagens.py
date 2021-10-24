@@ -23,14 +23,14 @@ for name in names:
 teste = re.search(r"[^a-zA-z0-9]", "Testando testo para verificar o buscador. Quantas vezes ele encontrará o resultado. 10, 20, 0" )
 print(teste) #Resultado contabilizando o SPACE na busca
 
-teste = re.search(r"[^a-zA-z0-9.á, ]", "Testando testo para verificar o buscador. Quantas vezes ele encontrará o resultado. 10, 20, 0" )
+ teste = re.search(r"[^a-zA-z0-9. á, ]", "Testando testo para verificar o buscador. Quantas vezes ele encontrará o resultado. 10, 20, 0" )
 print(teste) #Resultado NÃO contabilizando o SPACE, nem ".", "á", "," na busca RETORNA NONE
 
 
 # <-------------------------- BUSCANDO POR OPÇÕES ------------------------>
 #                             USANDO " | "
 
-busca = re.search(r"A|E|I", "Sempre sempres aquilo que cultivarmos, é uma cErteza.")
+busca = re.search(r"A|E|I", "Sempr e sempres aquilo que cultivarmos, é uma cErteza.")
 busca1 = re.search(r"A|E|I", "Sempre sempres aquilo que cultivarmos, é uma cArteza.")
 busca2 = re.search(r"A|E|I", "Sempre sempres aquilo que cultivarmos, é uma cIrteza.")
 print(busca) #DEVOLVE INTERVALO
