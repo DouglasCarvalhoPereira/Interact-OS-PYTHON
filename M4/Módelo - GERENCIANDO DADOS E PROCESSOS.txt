@@ -1,0 +1,29 @@
+> GERENCIANDO DADOS E PROCESSOS
+> LEITURA DE DADOS INTERATIVAMENTE
+"input()"
+
+Nesse módulo será abordado conceitos que ajuda a interagir com o sistema operacional em execução e como tirar
+melhor priveito das ferramentas disponíveis.
+
+- Como ler os dados dos usuários interativamente.
+- Explorar o fluxo de entrada e saídas de dados padrão fornecido pelo sistema operacional.
+- Como interagir com esses dados usando Python a partir dos programas do sistema.
+
+Interagir com o sistema operacional a partir da linha de comando.
+
+Entraremos a fundo em ARQUIVOS LOG 
+
+================================================================================================
+
+#Streams Padrão
+#Fluxos I/O streams ou Fluxos E/S
+#Mecanismo para executar ações de entrada e saída de dados do programa.
+
+# <I/O streams> PADRÃO - EXCLUSIVOS DA LINGUAGEM PYTHON
+
+# standard input - STDIN
+    # Quando usamos a função de entrada de dados para o usuário em um script Python estamos usando STDIN
+# standard output - STDOUT
+    # É usado STDOUT toda vez que é impresso uma informação no DISPLAY como o "print()"
+# standar error - STDERR
+    # Usado especificamente para mostrar no display mensagens de ERROR, provavelmente um erro em Python é impresso com o fluxo STDERR
