@@ -1,0 +1,5 @@
+Jan 21 08:00:01 MEU_SERVER CRON[44553]: (suporte) CMD (user: DOUG)
+Jan 21 08:00:01 SFL01 CRON[44553]: (usuário tal) CMD (user: Pyter)
+Jan 21 08:09:02 SFL01 [47130]: (usuário tal) CMD (user: Doni)
+Apr 12 14:17:01 cd CRON[14368]: (root) CMD (user: Taylor)
+Apr 12 14:17:01 cd CRON[14368]: (root) CMD (user: Dyn)
