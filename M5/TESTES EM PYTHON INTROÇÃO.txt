@@ -1,0 +1,29 @@
+USAR TRY E EXCEPTS
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>    TESTES PODE TORNAR UM BOM CÓDIGO EM ÓTIMO    <<<<<<<<<<<<<<<<<<<<<<<<
+
+Exploraremos: (O campor de testes de software é bastante amplo)
+
+    - TESTES AUTOMATIZADOS
+    - TESTE UNITÁRIOS
+    - TESTES DE INTEGRAÇÕES
+    - DESENVOLVIMENTO ORIENTADO POR TESTES
+
+Veremos a diferenta entre testes automatizados e manuais.
+
+
+TESTES EM PYTHON INTROÇÃO
+
+Agora aprenderemos a como criar testes automáticos. O prórpio SCRIPT fazendo testes.
+
+Isso auxilia a manter o foco em apenas escrever o código sem se precoupar se uma nova parte do código
+gerará um BUG.
+
+Também auxiliará a verificar se o script que criamos executa realmente o que ele criado para fazer.
+
+E como lidar com ERROS e EXCEÇÕES
+
+O objetivo principal é saber se ao decorrer da escrita do código ele continua fazendo o que foi criado para fazer.
+
+Erros podem surgir ao longo do desenvolvimento e testar o código com frequência pode garantir que possam ser resolvidos o quanto antes
+e não gerem problemas maiores.
