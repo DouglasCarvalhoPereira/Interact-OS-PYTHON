@@ -1,0 +1,41 @@
+Fazendo Fluxos E/S em Bash
+
+Para "REDIRECIONAR" algo é usado o simbolo ">"
+1 - ">"  - python script.py > new_script.py           <---- O arquivo new_script.py recebe os comandos de script.py
+Se o arquivo nao existir ele será criado, toda vez que o "> - Redirecionamento" é usado ou ele cria ou substitui o arquivo - CUIDADO
+
+
+Para "ADICIONAR" algo é usado o simbolo ">>"
+2 - ">>" - python script.py >> new_script.py          <---- O arquivo new_script.py recebe dados adicionais.
+
+
+Para "LER" ou "ENVIAR" o conteúdo de arquivos usamos "<"
+3 - "<"  - python script.py < new_script.py  
+
+Para "REDIRECIONAR UMA MENSAGEM DE ERRO" para um arquivo(Novo ou criado)
+4 - "2>" - python script.py < new_script.py  2> doc_error.txt  <---- Não exibe mensagem de erro, ela foi direcionada para um arquivo
+
+
+Todos esses comandos podem ser usados juntamente com Python no terminal por exemplo:
+
+5 - echo "These are the contents of the file" > new_arquivo.txt
+
+
+>>>>>>>>>>>>>>>>    PIPE E PIPELINES    <<<<<<<<<<<<<<<<<<
+
+
+Com PIPENG é possível conectar vários scripts, comandos, programas e muito mais.
+
+>> " | "  Pipes conectam a saída de um programa com a entrada de outro. 
+
+>>>>>>>>>>>>>>>> Processos de Sinalização <<<<<<<<<<<<<<<<
+
+Usando sinais queremos dizer ao programa que ele pare ou continue, que ele recarregue suas configurações, ou feche todos os arquivos abertos.
+
+CTRL - C "SIGINT"  é um comando de PAUSA do terminal, mas pausa "organizada" e que devolve informações
+CTRL - Z "SIGSTOP" é um comando de PAUSA forçada, sem terminar e sem muita informação sobre o processo
+fg   - Retoma o processo de execução
+KILL - "SIGTERM"   Dia ao programa para terminar, precisamos do PID
+ps   - Lista os processos atualmente em execução, nesse exmplo usaremos "ps ax" QUE LISTA TODOS OS PROCESSOS EM EXCUÇÃO NO COMPUTADOR atualmente
+greep- Irá manter somente as linhas com o comando que estamos procurando
+

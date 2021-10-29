@@ -1,0 +1,21 @@
+BASH SCRIPTING
+Linhas de comando básicas Linux
+
+> ..        - Diretório anterior - ex. cd .. retorna ao diretório anterior
+> rmdir     - Remove ou exclui um diretório (Só funciona em diretórios vazios)
+> echo      - Exibe conteúdo na tela
+> cat       - Mostrar conteúdo de arquivos
+> ls        - Listar conteúdo de um diretório
+> chmod     - Alterar permissões de um arquivos
+> mkdir     - Novo diretório
+> cd        - Para mudar para esse diretório
+> pwd       - Para imprimir o diretório atual
+> cp        - Para copiar arquivos ex. cp ../spider.txt .
+> touch     - Cria um arquivo vazio
+> ls -l     - Para ver o conteúdo de um diretório e outras colunas de informações como permissões, usuários e etc
+> ls -la    - Exibe também arquivos ocultos
+> mv        - Para renomear ou remover
+> rm        - Para remover / excluir arquivos
+> rm *      - Apagar todos de uma vez
+> man       - Para acessar paginas ou manual
+
