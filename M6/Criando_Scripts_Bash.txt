@@ -1,0 +1,10 @@
+Criando_Scripts_Bash
+
+Alguns dos comandos podem poupar muito trabalhando sendo executados diretamente pelo terminal. Abaixo
+alguns dos comando que funconariam como ferramentas úteis.
+
+"ps" - Exibe todos os processos em execução...
+"free" -  Exibe a quantidade de memória livre...
+"uptime" - Exibe detalhes de a quanto tempo o computador está ligado...
+
+Que tal um único script que executa vários comandos e imprime no terminal várias informaçoes úteis.
