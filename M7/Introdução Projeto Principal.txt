@@ -1,0 +1,18 @@
+Introdução
+Imagine que sua empresa usa um servidor que executa um serviço chamado  ticky , um sistema interno 
+de bilhetagem. O serviço registra eventos no syslog, tanto quando é executado com êxito quanto quando 
+encontra erros.
+
+Os desenvolvedores do serviço precisam de sua ajuda para obter algumas informações desses logs para que possam entender 
+melhor como o software é usado e como melhorá-lo. Portanto, para este laboratório, você escreverá alguns scripts de 
+automação que irão processar o log do sistema e gerar relatórios com base nas informações extraídas dos arquivos de log.
+
+O que você vai fazer
+
+1 - Use regex para analisar um arquivo de log
+
+2 - Anexar e modificar valores em um dicionário
+
+3 - Grave em um arquivo no formato CSV
+
+4 - Mova os arquivos para o diretório apropriado para uso com o conversor CSV-> HTML

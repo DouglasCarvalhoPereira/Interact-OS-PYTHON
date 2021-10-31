@@ -7,7 +7,7 @@ index = log.index("[")
 print(log[index+1:index+6])
 
 #AGORA USAREMOS REGEX ou EXPRESSÕES REGULARES PARA ISSSO
-log = "July 31 07:51:48 mycomputer bad_process [12345]: ERROR Performaing package upgrade"
+log = "July 31 07:51:48 mycomputer bad_process [12345hjl]: ERROR Performaing package upgrade"
 
 #NÃO IMPORTA ONDE O ID DE PROCESSO APAREÇA NO PROCESSO OU QUANTO TEMPO OU CURTA A LINHA SEJA
 #Enquanto houver uma única sequência de números entre colchetes ele ira retornar.
