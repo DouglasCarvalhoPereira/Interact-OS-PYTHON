@@ -18,5 +18,3 @@ with open(arquivo) as f:
             continue
         usersname[name] = usersname.get(name, 0) + 1
         print(result)
-    
-print(usersname)
