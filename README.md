@@ -13,7 +13,6 @@ This repository contains a course and associated projects focused on interacting
 - **M7**: Final updates for the final project.
 - **ambOSPy**: Final project work related to interacting with the OS.
 - **to_html.py**: Python script related to the final project.
-- **LICENSE**: The project’s license file.
 
 ## 🎯 Objective
 
